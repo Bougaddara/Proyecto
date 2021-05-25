@@ -1,0 +1,61 @@
+@media only screen and (min-width: 600px) {
+  header {
+    width: 100%;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #000000, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ffffff, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: grid;
+    grid-template-rows:20% 45% 20% ;
+    grid-template-columns:47% 6%  47% ;
+    grid-template-areas:
+      "menu1 menu1 menu1"
+      "menu logo registrate"
+      "usuario usuario usuario ";
+    justify-items: stretch;
+    justify-content: center;
+  }
+
+
+}
+@media only screen and (max-width: 600px) {
+  header {
+    background-color: rgba(255,0,0,.2);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 2px;
+    padding: 5px;
+  }
+}
+
+
+header app-logo {
+  grid-area: logo;
+  display: flex;
+justify-content: center;
+align-items: center
+
+}
+header app-menu {
+  display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+header app-usuario {
+grid-area: usuario;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+header app-menu1 {
+  grid-area: menu1;
+  background-color:rgb(26, 25, 25);
+  }
+  header app-registrate {
+    grid-area: registrate ;
+    display: flex;
+    align-items: center;
+    
+    }

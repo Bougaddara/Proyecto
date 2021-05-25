@@ -1,0 +1,9 @@
+
+<ul  >
+    <li  *ngFor="let categoria of respuesta">
+       <a [routerLink]="[categoria.categoriaid, 'libros']">
+            {{ categoria.nombre_categoria }}
+        </a>  
+    </li>
+    <a class="nueva" href=""><i class="fas fa-plus"></i> Nueva categoria</a>
+  </ul>
