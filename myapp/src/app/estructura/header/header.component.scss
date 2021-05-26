@@ -52,6 +52,10 @@ align-items: center;
 header app-menu1 {
   grid-area: menu1;
   background-color:rgb(26, 25, 25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   }
   header app-registrate {
     grid-area: registrate ;

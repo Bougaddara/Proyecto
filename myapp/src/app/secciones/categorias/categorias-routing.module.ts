@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NewComponent } from '../editores/acciones/new/new.component';
 import { ListarComponent } from './acciones/listar/listar.component';
 import { CategoriasComponent } from './categorias.component';
 

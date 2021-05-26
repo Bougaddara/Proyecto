@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { libreriaComponent } from './libreria.component';
+import { IniciaComponent } from './inicia.component';
 
 
 const routes: Routes = [
-  { path: '', component: libreriaComponent }
+  { path: '', component: IniciaComponent }
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class LibreriaRoutingModule { }
+export class iniciaRoutingModule { }

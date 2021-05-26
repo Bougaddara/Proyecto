@@ -32,7 +32,7 @@ export class ListarComponent implements OnInit {
 
   async getLibros(){
     console.log ("Cargar los libros de la categoria ",this.idCat );
-    this.respuesta = await this.catService.getLibros(this.idCat);
+    /*this.respuesta = await this.catService.getLibros(this.idCat);*/
     console.log(this.respuesta);
   }
 
