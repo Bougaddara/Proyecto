@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  URL: 'http://libreria.jamorgado.es/api/'
+  URL: 'http://161.22.43.60/apilibreria/'
 };
 
 /*

@@ -14,7 +14,6 @@ const routes: Routes = [
   { path: '', loadChildren: () => import('./regi/regi.module').then( m => m.RegiModule) },
   { path: 'Regi', loadChildren: () => import('./regi/regi.module').then( m => m.RegiModule) },
 
-  { path: 'editores', loadChildren: () => import('./editores/editores.module').then( m => m.EditoresModule) },
   
   { path: 'categorias', loadChildren: () => import('./categorias/categorias.module').then( m => m.CategoriasModule) }
 
