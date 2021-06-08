@@ -9,7 +9,6 @@ $app->get('/api/categorias', function (Request $request, Response $response, $ar
     $response->getBody()->write("Listado de Categorias");
     return $response;
 });
-$app->get('/api/categorias/new', function (Request $request, Response $response, $args) {
-    $response->getBody()->write("Insertar una Nueva Categoria");
-    return $response;
-});
+
+$app->get('/api/categurias/new','App\Controllers\CateguriasController:new') ;
+
